@@ -23,7 +23,7 @@ public class AppController {
     public String health(){
         System.out.println("------in register health  method-----");
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("status","UP");
+        jsonObject.put("statusTest","UP");
         return jsonObject.toString();
     }
 
